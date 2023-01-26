@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:untitled1/authenticate/wrapper.dart';
 import 'package:untitled1/models/firebase_user.dart';
-import 'package:untitled1/screens/splashScreen.dart';
 // ignore: depend_on_referenced_packages
 import 'package:firebase_core/firebase_core.dart';
 import 'package:untitled1/services/auth.dart';
@@ -29,7 +29,7 @@ class _MyAppState extends State<MyApp> {
       initialData: null,
         child: const MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: SplashScreen(),
+          home: Wrapper(),
         ),
     );
   }
