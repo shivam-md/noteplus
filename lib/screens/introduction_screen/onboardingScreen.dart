@@ -49,7 +49,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
               title: "Learning Discipline",
               image: Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Image.asset('assets/icons/app_logo.png'),
+                child: Image.asset('assets/icons/app_logo1.png'),
               ),
               body: "Learning and discipline are closely related concepts. Discipline refers to the actions and habits that are necessary to achieve a particular goal or task. It involves setting clear expectations and boundaries, as well as holding oneself accountable for meeting those expectations."
           ),

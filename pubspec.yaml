@@ -43,13 +43,13 @@ dependencies:
   introduction_screen: ^3.1.4
 
 flutter_native_splash:
-  color: '#d58fff'
-  image: assets/icons/app_logo.png
+  color: '#8a74b0'
+  image: assets/icons/app_logo1.png
 
 flutter_icons:
   android: true
   ios: true
-  image_path: 'assets/icons/app_logo.png'
+  image_path: 'assets/icons/app_logo1.png'
 
 dev_dependencies:
   flutter_test:
