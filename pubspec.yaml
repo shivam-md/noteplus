@@ -37,19 +37,30 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.5
   cloud_firestore: ^4.3.0
-  firebase_auth:
-  provider:
+  firebase_auth: ^4.2.6
+  # firebase_auth depends on firebase_auth_web.
+  firebase_auth_web: ^5.2.5
+
+  #state management
+  provider: ^6.0.5
   flutter_native_splash: ^2.2.16
   introduction_screen: ^3.1.4
+  # database
+  sqflite: ^2.2.4+1
+  # formating date and time
+  intl: ^0.17.0
+  # to display the data.
+  flutter_staggered_grid_view: ^0.6.2
+
 
 flutter_native_splash:
   color: '#8a74b0'
-  image: assets/icons/app_logo1.png
+  image: assets/icons/prototype logo.png
 
 flutter_icons:
   android: true
   ios: true
-  image_path: 'assets/icons/app_logo1.png'
+  image_path: 'assets/icons/tick_logo.png'
 
 dev_dependencies:
   flutter_test:
